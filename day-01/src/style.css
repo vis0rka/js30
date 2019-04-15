@@ -1,0 +1,54 @@
+* {
+  margin:0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size:10px;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/StockSnap_FYXAZHCHGM.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sound {
+  width:7rem;
+  height: 7rem;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.438);
+  margin: 1rem;
+  padding:0.5rem;
+  text-align: center;
+  transition: all .07s;
+}
+
+.sound kbd {
+  font-size: 3.5rem;
+  color:white;
+}
+
+.sound span {
+  display:block;
+  color:yellow;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
